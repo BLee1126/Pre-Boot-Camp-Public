@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+   line-height: 0;
+}
+.wall{
+    background-color: blue;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.sushi{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('sushi.png');
+    background-size:contain;
+}
+.blank{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+#ninjaman{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url('ninja.gif');
+    background-size: contain;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
